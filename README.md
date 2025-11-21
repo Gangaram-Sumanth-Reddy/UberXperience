@@ -1,51 +1,112 @@
-# UberMapUI
+# 🚗 UberMapUI — Uber-Style Ride Booking Frontend
 
-A pure frontend-only Uber-like ride booking interface with integrated map view.
+UberMapUI is a fully responsive, multi-language, frontend-only ride-booking platform inspired by Uber.  
+It delivers a complete user experience with clean UI, animations, and modern component architecture.
 
-## Features
+---
 
-- Clean, minimalist design matching Uber's interface
-- Two-column layout: booking form on the left, map view on the right
-- Header with navigation, language selector, and user profile
-- Pickup and dropoff location inputs
-- Google Maps integration showing Bengaluru, India
-- Responsive design with Tailwind CSS
+## ✨ Features
 
-## Setup
+### 🔐 Authentication
+- Animated login page  
+- “Dive In” quick entry (no backend auth)  
+- Sign-out functionality  
 
-1. Install dependencies:
-```bash
-npm install
+### 🏠 Home Page
+- Pickup/Dropoff booking form  
+- Uber-style creative map animation  
+- 3-step booking guide  
+- 6 ride-service cards  
+- Full multilingual UI  
+
+### 🌐 Supported Languages (8)
+English, Bengali, Hindi, Kannada, Marathi, Tamil, Telugu, Urdu
+
+### 📄 Major Pages
+- **About Page** – 9 structured sections  
+- **Ride Page** – ride options, pricing, safety  
+- **Drive Page** – driver flow, FAQs  
+- **Business Page** – Uber for Business flow  
+- **Help Page** – 7 support categories  
+
+### 📱 Responsive UI
+- Mobile → desktop layout  
+- Full-screen mobile menu  
+- Adaptive grids & touch-friendly design  
+
+### 🎨 Design System
+- Glassmorphism  
+- Animated backgrounds  
+- Icon-driven UI  
+- Modern gradients & hover effects  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React 18**  
+- **TypeScript**  
+- **Vite**  
+- **Tailwind CSS**  
+- **react-map-gl / mapbox-gl**  
+- **Framer-Motion**  
+- **ESLint + Prettier**
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+ ├── components/
+ ├── contexts/
+ ├── translations/
+ ├── types/
+ ├── App.tsx
+ ├── main.tsx
+ └── index.css
 ```
 
-2. (Optional) Get a Mapbox access token for better performance:
-   - Go to [Mapbox](https://account.mapbox.com/)
-   - Sign up for a free account
-   - Copy your default public token
-   - Create a `.env` file in the root directory
-   - Add: `VITE_MAPBOX_TOKEN=your_token_here`
-   - Note: The app works with a default public token, but getting your own is recommended
+---
 
-4. Run the development server:
+## 🚧 Implementation
+
+- React Context for language state  
+- State-based navigation (no router)  
+- Lazy-loaded images  
+- Vite-optimized production builds  
+- Semantic HTML + ARIA labels  
+
+---
+
+## 🏗️ Installation
+
 ```bash
+npm install
 npm run dev
 ```
 
-5. Open your browser and navigate to the URL shown in the terminal (usually `http://localhost:5173`)
-
-## Build for Production
+### Production
 
 ```bash
 npm run build
+npm run preview
 ```
 
-The built files will be in the `dist` directory.
+---
 
-## Tech Stack
+## ⭐ Highlights
 
-- React 18
-- TypeScript
-- Vite
-- Tailwind CSS
-- Mapbox GL (react-map-gl)
+- Full Uber-style UI/UX  
+- 8-language support  
+- Fully responsive  
+- Production-ready frontend  
+- Clean & scalable TypeScript code  
+- Works on Vercel/Netlify/GitHub Pages easily  
+
+---
+
+## 👨‍💻 Author
+Built with ❤️ by **CodeGai (Sumanth)**  
+A modern learning-focused recreation of Uber’s interface.
 
